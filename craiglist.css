@@ -1,0 +1,286 @@
+body {
+background: linear-gradient(to bottom, #ffffff 0%, #dfe6ec 100%) no-repeat;
+background-size: auto;
+}
+
+
+.topbar {
+  display: flex;
+  font-family: Sans-Serif;
+}
+
+
+.infocontainer{
+  margin-left: 180px;
+  margin-right: 232px;
+  align-items: flex-start;
+  margin-top: 100px;
+
+}
+
+.search {
+  width: 1000px;
+  font-size: 12px;
+
+}
+
+.dropdown {
+  float: right;
+  margin-top: 10px;
+}
+
+.button {
+  border: solid none 1px;
+  width: 200px;
+  height: 90px;
+  margin: 20px;
+  flex: 1;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 10px 18px #d3d1d1;
+
+
+}
+
+#click {
+  box-shadow: 5px 10px 18px #888888;
+  display: flex;
+}
+
+.buttoncontainer {
+  display: flex;
+  margin-top: 50px;
+  width: 1100px;
+  margin: 40px auto;
+}
+
+img {
+  max-width:100px;
+  max-height:100px;
+  float: right;
+  height: 100%;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+
+
+.button h6{
+  display: inline-block;
+  color: #6b8c9d;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left:20px;
+  font-family: Sans-Serif;
+}
+
+.top {
+  border: solid none;
+  flex: 1;
+  box-shadow: 5px 10px 18px #d3d1d1;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.topcontainer {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  width: 1100px;
+
+}
+
+.bottom {
+  border: solid none;
+  flex: 1;
+  box-shadow: 5px 10px 18px #d3d1d1;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: -30px;
+
+}
+
+.bottomcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  width: 1100px;
+
+}
+
+input[type=text] {
+    width: 500px;
+    font-size: 16px;
+    background-color: none;
+    padding: 6px 10px 6px 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid gray;
+}
+
+select {
+   width: 300px;
+   background: transparent;
+   border: 0;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px;
+   border-bottom: 1px solid gray;
+   -webkit-appearance: none;
+   -webkit-border-radius: 0px;
+   outline: none;
+}
+
+.ad {
+  color: white;
+  border: solid #4daae4;
+  background-color: #4daae4;
+  border-radius: 3px;
+  font-size: 12px;
+  border-width: 10px;
+}
+
+.acc {
+  color: #6b8c9d;
+  font-size: 12px;
+  margin-right: 50px;
+}
+
+.leftside {
+    margin-left: auto;
+    margin-right: 250px;
+    margin-top: 30px;
+  }
+
+a {
+  text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+}
+/* Calendar */
+
+.month {
+  padding: 10px 0px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  color: #6b8c9d;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 36px;
+  font-family: Sans-Serif;
+}
+
+.weekdays li {
+  display: inline-block;
+  color: #b5c6ce;
+  width: 12%;
+  font-family: Sans-Serif;
+  font-size: 12px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #b5c6ce;
+  font-family: Sans-Serif;
+}
+
+.communitydetails {
+  column-count: 2;
+  line-height: 30px;
+  color: #b5c6ce;
+  font-family: Sans-Serif;
+  font-size: 14px;
+
+}
+
+.jobsdetails {
+  column-count: 2;
+  line-height: 30px;
+  color: #b5c6ce;
+  font-family: Sans-Serif;
+  font-size: 14px;
+
+}
+
+.housingdetails {
+  column-count: 2;
+  line-height: 30px;
+  color: #b5c6ce;
+  font-family: Sans-Serif;
+  font-size: 14px;
+
+}
+
+.forsaledetails {
+  column-count: 2;
+  line-height: 30px;
+  color: #b5c6ce;
+  font-family: Sans-Serif;
+  font-size: 14px;
+
+}
+
+.personalsdeatils {
+  line-height: 30px;
+  color: #b5c6ce;
+  font-family: Sans-Serif;
+  font-size: 14px;
+
+}
+
+.title {
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #6b8c9d;
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+input {
+  font-size: 50px;
+}
+
+hr.style1{
+	border-top: 1px solid #f3f2f2;
+}
+
+.in {
+  margin-left: 70px;
+  color: #b5c6ce;
+  font-size: 30px;
+}
+
+.list {
+  color: #b5c6ce;
+  font-size: 20px;
+  font-family: Sans-Serif;
+  margin-top: 15px;
+}
+
+
+.logo {
+  width:30px;
+  margin-left: 180px;
+  margin-top: 3px;
+}
+
+.trueleftside {
+  display: inline-flex;
+  margin-top: 25px;
+}
